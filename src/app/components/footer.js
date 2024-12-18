@@ -1,4 +1,5 @@
 export default function Footer() {
+  
   return (
     <footer className="bg-[#171717]  py-2  bottom-0 w-full fixed">
       <div className="px-8 py-3 bg-[#171717] border-b border-[#303335]">
