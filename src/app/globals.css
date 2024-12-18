@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+@keyframes dot-blink {
+    0%, 20% {
+      opacity: 1;
+    }
+    50%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  .animate-dot-blink {
+    animation: dot-blink 1.5s infinite;
+  }
+  
+  .animate-dot-blink-1 {
+    animation-delay: 0s;
+  }
+  
+  .animate-dot-blink-2 {
+    animation-delay: 0.1s;
+  }
+  
+  .animate-dot-blink-3 {
+    animation-delay: 0.2s;
+  }
+  
