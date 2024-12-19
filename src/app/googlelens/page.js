@@ -30,7 +30,7 @@ export default function GoogleLensClone() {
 
   const onCropComplete = useCallback((croppedArea, croppedAreaPixels) => {
     setCroppedAreaPixels(croppedAreaPixels);
-    getCroppedImage(); // Analyze the cropped image automatically
+    getCroppedImage(); //this is the  Analysis of the cropped image automated.
   }, [image, croppedAreaPixels]);
 
   const analyzeImage = async (imageToAnalyze) => {
